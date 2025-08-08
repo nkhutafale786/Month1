@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mobile Responsive </title>
+    <!-- css -->
+    <link rel="stylesheet" href="mobileresponsive.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">About</a></li>
+            <li class="ctn"><a href="#">Contact</a></li>
+        </ul>
+        <img src="./menu-btn.png" alt="" class="menu-btn">
+        </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div>
+            <h1> A WONDERFUL GIFT </h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+    <!-- Events -->
+     <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="link"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./image/img3.jpg" alt="">
+                <h4>Everast Camp Trek</h4>
+                <p>Lorem,ipsum dolor sit amet consectetur adipisicing elit voluptation.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+             <div class="col">
+                <img src="./image/img4.jpg" alt="">
+                <h4>Walking Holidays</h4>
+                <p>Lorem,ipsum dolor sit amet consectetur adipisicing elit voluptation.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+     </section>
+     <section class="explore">
+       <div class="explore-content">
+         <h1>Explore The World</h1>
+         <div class="line"></div>
+        <p>Lorem,ipsum dolor sit amet consectetur adipisicing elit voluptation.Lorem,ipsum dolor sit amet consectetur adipisicing elit voluptation.</p>
+        <a href="#" class="ctn">Learn More</a>
+       </div>
+     </section>
+     <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>Upcomig Tours And Sedtination</h1>
+                <div class="line"></div>
+                <p>Lorem,ipsum dolor sit amet consectetur adipisicing elit voluptation.Lorem,ipsum dolor sit amet consectetur adipisicing elit voluptation.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./image/img6.jpg" alt="">
+                    <img src="./image/img7.jpg" alt="">
+                    <img src="./image/img8.jpg" alt="">
+                    <img src="./image/img9.jpg" alt="">
+                </div>
+            </div>
+        </div>
+     </section>
+     <section class="footer">
+        <p>Name. Address. 13th Street. 47 W 13th St, New York, NY 10011, USA. 20 Cooper Square. 20 Cooper Square, New York, NY 10003, USA. 2nd Street Dorm.</p>
+        <p>Copyright @ 2025 Outdoor Adventure</p>
+     </section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>

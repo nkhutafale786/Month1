@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building a gussing game in javascript</title>
+</head>
+<body>
+    <input type="number" id="input">
+    <button id="btn">Submit</button>
+
+    <script type="text/javascript">
+        var btn = document.getElementById("btn");
+
+        // generating random number
+        var r = Math.random() * 10;
+        var c = Math.ceil(r); // remove decimal point
+
+        btn.onclick = function(){
+            var input = document.getElementById("input").value;
+            if(input == c) {
+                document.write("Equal <br>");
+                document.write("Your Number = " + input  + " <br>");
+                document.write("Random number = " + c + " <br>");
+            }else{
+                document.write("Not Equal <br>");
+                document.write("Your Number = " + input  + " <br>");
+                document.write("Random number = " + c + " <br>");
+            }
+        }
+    </script>
+</body>
+</html>

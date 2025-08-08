@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <script src="http://kit.fontawesome.com/c1d4c8f89c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="buttonlight&dark.css">
+    <title>Dark Mode Light Mode</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="logo1.png" alt="" id="logo-img">
+            <a href="#" id="logo-text">The Nishant</a>
+        </div>
+
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">PORTFOLIO</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">CONTACT ME</a></li>
+        </ul>
+
+        <div id="Mode">
+            <div id="switch"></div>
+            <label id="inner-text">Dark</label>
+        </div>
+    </nav>
+
+    <div class="main">
+        <div class="left-column">
+            <div class="img-box">
+                <img src="Pattern.png" alt="" class="img-back">
+                <img src="photo.JPG" alt="" class="img-main">
+            </div>
+
+        </div>
+
+        <div class="right-column">
+            <div class="content">
+                <h1>HI I'M <span>THE NISHANT</span></h1>
+                <p>A <span>Front-End Web Developer</span> passionate about<br>
+                   creating interactiv applications and experiances on the web</p>
+
+                <button>Contact Me</button>
+
+                <div class="social-link">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-behance-square"></i></a>
+                    <a href="#"><i class="fab fa-dribbble-square"></i></a>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+
+  <script>
+        //const Mode_icon = document.getElementById('Mode');
+        const Switch_Mode = document.getElementById('switch');
+        const Inner_text = document.getElementById('inner-text');
+        Mode.onclick = function(){
+            document.body.classList.toggle('dark-mode');
+            Switch_Mode.classList.toggle('switch-active');
+            Inner_text.classList.toggle('inner-text-active');
+            if(document.body.classList.contains('dark-mode')){
+                Inner_text.innerHTML = 'Light';
+            }
+            else{
+                Inner_text.innerHTML = 'Dark';
+            }
+        }
+
+    </script>
+</body>
+</html>

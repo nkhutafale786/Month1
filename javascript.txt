@@ -1,0 +1,49 @@
+1) What is java script?
+-> javascript is a programming language.
+   is is use in web development.
+   inteeactive and dynamic effect.
+
+2) what is variable?
+-> Variable are container for data.
+
+3) what are the different data type?
+-> 1)primitive datatype:
+     1]string -> string can be represent using a single and double quote.  
+     2]number -> it represent a number and can be written with or without decimal.
+     3]bigint -> it can store large number.
+     4]boolean -> it represent a logical entity and can have only two value true or false.
+     5]null -> invalid value.
+   
+   2)non-primitive datatype-> to store multiple and complex value.
+
+4)Control Flow ->
+    if Statement -> The if statement executes a block of code only if a specified condition is true.
+    if-else Statement -> The if-else statement provides an alternate block of code to execute if the condition is false.
+    if-else if-else Statement -> The if-else if-else statement is used when you want to handle multiple conditions.
+    switch Statement -> The switch statement evaluates an expression and executes a block of code based on matching cases.
+
+5) JavaScript function:
+-> A JavaScript function is a block of code designed to perform a particular task.
+
+6)Array:
+-> An Array is an object type designed for storing data collections.
+
+7)JavaScript Objects :
+-> Objects are variables too. But objects can contain many values.
+
+8)What is the DOM?
+-> When a web page is loaded, the browser creates a Document Object Model of the page.
+   The DOM is a W3C (World Wide Web Consortium) standard.
+ 
+ The W3C DOM standard is separated into 3 different parts:
+  1 -> Core DOM - standard model for all document types
+  2 -> XML DOM - standard model for XML documents
+  3 -> HTML DOM - standard model for HTML documents
+
+9)What is the HTML DOM?
+-> The HTML DOM is a standard object model and programming interface for HTML. It defines:
+
+  The HTML elements as objects
+  The properties of all HTML elements
+  The methods to access all HTML elements
+  The events for all HTML elements
