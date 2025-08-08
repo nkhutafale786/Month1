@@ -1,0 +1,115 @@
+ • Hands-On: Style the portfolio website with CSS, add Flexbox for layout 
+• Client Project: Modern styled Portfolio Website (Responsive, use Flexbox/Grid for 
+layout) 
+
+                                                        ** Introduction to CSS ** 
+1)What is css?
+->CSS is stanf for Cascading style sheet.
+
+2)CSS syntax?
+->h1{color:blue;font-size:12px}
+
+3)css selector?
+-> 1] Element = The element selector selects HTML elements based on the element name.
+	   p {
+ 	 text-align: left;
+  	color: red;
+} 
+ 2] id = The id selector uses the id attribute of an HTML element to select a specific element.
+         To select an element with a specific id, write a hash (#) character, followed by the id of the element.
+         HTML element with id="para1"
+	#para1 {
+	  text-align: center;
+	  color: red;
+	}
+ 3] class = The class selector selects HTML elements with a specific class attribute.
+            To select elements with a specific class, write a period (.) character, followed by the class name.
+            Example class="center"
+		.center {
+ 		 text-align: center;
+ 		 color: red;
+		}
+ 4] universal = The universal selector (*) selects all HTML elements on the page.
+		* {
+		  text-align: center;
+		  color: blue;
+		}
+ 5] grouping = The grouping selector selects all the HTML elements with the same style definitions.
+               h1, h2, p {
+ 		 text-align: center;
+		  color: red;
+		}
+
+ 6] External CSS = With an external style sheet, you can change the look of an entire website by changing just one file.
+                   <link rel="stylesheet" href="mystyle.css">
+
+ 7] Inline CSS = An inline style may be used to apply a unique style for a single element. 
+                 <p style="color:red;">This is a paragraph.</p>
+
+4)CSS Box Model?
+-> In CSS, the term "box model" is used when talking about design and layout.
+        Content - The content of the box, where text and images appear
+	Padding - Clears an area around the content. The padding is transparent
+	Border - A border that goes around the padding and content
+	Margin - Clears an area outside the border. The margin is transparent
+    Example : div {
+		  width: 320px;
+		  height: 50px;
+		  padding: 10px;
+		  border: 5px solid gray;
+		  margin: 0;
+		}
+
+5) position property -> The position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).
+                      position: static -> HTML elements are positioned static by default.
+                                         Static positioned elements are not affected by the top, bottom, left, and right properties.
+				div.static {
+				  position: static;
+  				  border: 3px solid #73AD21;
+				}
+
+                     position: relative -> An element with position: relative; is positioned relative to its normal position.
+				div.relative {
+				  position: relative;
+				  left: 30px;
+				  border: 3px solid #73AD21;
+				}
+
+		     position: fixed -> An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.
+					A fixed element does not leave a gap in the page where it would normally have been located.
+				div.fixed {
+				  position: fixed;
+				  bottom: 0;
+				  right: 0;
+				  width: 300px;
+				  border: 3px solid #73AD21;
+				}
+
+		    position: absolute -> An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).
+					div.relative {
+  						position: relative;
+						  width: 400px;
+						  height: 200px;
+ 						  border: 3px solid #73AD21;
+						}
+
+					div.absolute {
+ 						 position: absolute;
+						    top: 80px;
+						    right: 0;
+ 						    width: 200px;
+						    height: 100px;
+ 						    border: 3px solid #73AD21;
+						}
+		   position: sticky -> An element with position: sticky; is positioned based on the user's scroll position.
+					div.sticky {
+						  position: sticky;
+						  top: 0;
+						  background-color: green;
+						  border: 2px solid #4CAF50;
+
+
+
+
+
+

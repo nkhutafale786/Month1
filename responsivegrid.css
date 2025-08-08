@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+    "navbar navbar"
+    "sidebar main"
+    "sidebar footer";
+}
+nav{
+    grid-area: navbar;
+    background:black;
+    color:white;
+    padding:1em;
+}
+aside{
+    grid-area: sidebar;
+}
+main{
+    grid-area: main;
+}
+footer{
+    grid-area: footer;
+    background:yellow;
+    color:white;
+    padding:1em;
+}
