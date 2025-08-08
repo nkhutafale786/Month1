@@ -1,0 +1,24 @@
+1)what is html?
+-> HTML stand for hyper text markup language is the standard language for creating web page.
+
+2)Structure of Html?
+-> 1] Document -> An Html document is a file containing hypertext maekup language.
+     document.write() is use to write a string.
+     document.open() is use for open.
+   2] tags -> 1]<html> tag = the <html> tag is the root element of an html document.
+              2]<head> tag = the<head> tag contains meta information about the html document.
+              3]<body> tag = the<body> tag enclose the main content of the html document,including,text,image,links and other element.
+              4]heading tag <h1> to <h6> = heading tags are used to define heading in html ranging from<h1> to <h6>.
+              5]paragraph tag <p> = the<p> tag is used to define paragraph of text.
+              6]image tag <img> = the src attribute specifies the image file.
+              7]list tag <ul> <ol> <li> = <ul> unorderd list,<ol> orderd list,<li> list item.
+              8]link tag <a href=" ">.
+              9]<table> tag =  <tr> table row , <th> table header>, <td> table cell.
+                               <thead>,<tffot>,<tbody>.
+3) what is attribute?
+-> in html attribute provide addition information about an html document.
+   1-global attribute.
+   2-event attribute.
+
+4] what is elements in html?
+-> html element holds the content.html element specifies the general content.
